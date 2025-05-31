@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Aniket - Portfolio Website</title>
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a target="_blank" rel="noopener noreferrer" href="#" class="logo"><img src="images/favicon.png" alt="">Portfolio.AB</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Aniket Barua</h1>
+            <p>
+                I'm a web developer who loves to create beautiful and functional websites
+                for people who want to make a difference in the world.
+            </p>
+            <p>Currently I'm a student of MAKAUT, where I'm learning how to
+            create beautiful and functional websites using HTML, CSS, JavaScript, PHP, MySQL and WordPress.</p>
+
+            <div class="social-media">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/abaniket7"><i class='bx bxl-github'></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://x.com/aniket07barua"><i class='bx bxl-twitter'></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/just.ani.0_0/#"><i class='bx bxl-instagram-alt'></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aniketbarua07/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a target="_blank" rel="noopener noreferrer" href="files/ANIKET_Resume.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-bulb'></i>
+                    <h3>Tech Enthusiast</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-code-curly'></i>
+                    <h3>&nbsp;&nbsp;Programmer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hello! I'm Aniket — a curious and dedicated web developer who loves creating meaningful digital experiences.
+            </h3>
+            <p>
+                Ever since I wrote my first line of code, I've been fascinated by the power of technology to solve real-world problems and bring ideas to life. My passion lies in building clean, efficient, and user-friendly websites and applications.
+            </p>
+            <p>
+                On this blog, I share my journey of learning new tools, tips and tricks I discover, and insights into the ever-evolving world of web development. Whether you're a fellow coder or just curious about tech, I hope you find something here that sparks your interest.
+            </p>
+            <p>
+                Feel free to connect with me or drop a message if you want to collaborate or just say hi. Thanks for stopping by!
+            </p>
+            <a href="#home" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>
+                    I build responsive, fast, and dynamic websites using PHP, HTML, CSS, and JavaScript. Whether it’s a business site, dashboard, or custom application, I turn ideas into code.
+                </p>
+                <a href="#home" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-devices'></i>
+                <h3>UI/UX Design</h3>
+                <p>
+                    I design clean, modern user interfaces with a focus on usability and mobile-first responsiveness. Every layout I build is crafted for smooth user interaction.
+                </p>
+                <a href="#home" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Backend Development</h3>
+                <p>
+                    I develop secure and efficient backend systems using PHP and MySQL. From form handling to payment processing and email automation, I make web apps work behind the scenes.
+                </p>
+                <a href="#home" class="btn">Read More</a>
+            </div>
+
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Gaming Landing Page Frontend Project</h4>
+                    <p>A modern, responsive gaming landing page designed for esports enthusiasts with match updates and news highlights.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://abaniket7.github.io/Hyper-Games/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Starbucks Landing Page Frontend Project</h4>
+                    <p>A clean and interactive Starbucks landing page clone built to showcase responsive UI and product switching features.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://abaniket7.github.io/Starbucks/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Blogging Page</h4>
+                    <p>A personal portfolio and blogging website featuring a dark/light mode toggle, mobile-friendly nav, and categorized tech blogs.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://abaniket7.github.io/myBlog/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Petuk Food Ordering</h4>
+                    <p>An online food ordering website with user login, dynamic menu, order placement, and modern responsive design using PHP, MySQL & Tailwind CSS.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="http://petuk.free.nf/index.php"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>PIT Admission Portal</h4>
+                    <p>A dynamic web portal for Phoenix Institute of Technology that automates student admission, course management, and payment integration using PHP, MySQL, Razorpay, and PHPMailer.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>
+                            Working with Aniket was a great experience. He built our website from the ground up and integrated payment processing flawlessly. His ability to understand our needs and turn them into a smooth, functional solution was impressive. Highly recommend him for any web development project!
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>
+                            Aniket not only delivered a clean and modern design for our portfolio, but also added backend features like automated email responses and secure form handling. His work ethic and attention to detail stood out — we’re thrilled with the results and the user feedback has been amazing!
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>
+                            From layout to logic, Aniket handled our entire web project. His backend integration skills, especially with PHP and Razorpay, were top-notch. What I appreciated most was his commitment to ensuring everything worked perfectly — even after the launch. Great partner to work with.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="contact-form">
+  <div class="input-box">
+    <input type="text" name="fullname" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+  </div>
+  <div class="input-box">
+    <input type="number" name="phone" placeholder="Mobile Number" required>
+    <input type="text" name="title" placeholder="Email Subject" required>
+  </div>
+  <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+  
+  <!-- Hidden timestamp field -->
+  <input type="hidden" name="timestamp" id="timestamp">
+
+  <input type="submit" value="Send Message" class="btn">
+</form>
+
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    emailjs.init('zZKtabX1cnxLacnbl'); // Your public key
+
+    const form = document.getElementById('contact-form');
+
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Set current timestamp
+            document.getElementById('timestamp').value = new Date().toLocaleString();
+
+            emailjs.sendForm('service_4fiak7j', 'template_tmf1fis', this)
+                .then(function() {
+                    alert('Message sent successfully!');
+                    form.reset();
+                }, function(error) {
+                    alert('Failed to send message: ' + JSON.stringify(error));
+                    console.error('EmailJS error:', error);
+                });
+        });
+    } else {
+        console.error('Form element not found!');
+    }
+});
+</script>
+
+
+</body>
+
+</html>
