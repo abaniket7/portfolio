@@ -40,6 +40,10 @@ body {
     color: var(--text-color);
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 .header {
     position: fixed;
     top: 0;
