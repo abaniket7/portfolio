@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a responsive, interactive port
 
 ## 🚀 Live Demo
 
-🌐 [Visit My Portfolio](https://abaniket7.github.io/)  
+🌐 [Visit My Portfolio](https://abaniket7.github.io/portfolio/)  
 📄 [Download Resume (CV)](files/ANIKET_Resume.pdf)
 
 ---
