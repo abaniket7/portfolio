@@ -870,10 +870,13 @@ span {
         text-align: center;
     }
 
+    .about-img {
+        background-cokor: #754EF9;
+    }
+
     .about-img img {
         width: 70vw;
         margin-top: -2rem;
-        background-cokor: #754EF9;
     }
 
     .testimonial-container .testimonial-wrapper {
