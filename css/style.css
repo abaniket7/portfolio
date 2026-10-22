@@ -872,11 +872,13 @@ span {
 
     .about-img {
         background-color: #754EF9;
+        width: 70vw;
     }
 
     .about-img img {
         width: 70vw;
         margin-top: -2rem;
+        display: block;
     }
 
     .testimonial-container .testimonial-wrapper {
